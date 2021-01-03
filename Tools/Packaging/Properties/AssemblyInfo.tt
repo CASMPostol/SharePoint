@@ -1,0 +1,22 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".cs" #>
+
+using System;
+using System.Reflection;
+using System.Runtime.InteropServices;
+
+[assembly: AssemblyTitle("Package creator")]
+[assembly: AssemblyDescription("The library helping to create installation packages")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("<#=AssemblyCompany#>")]
+[assembly: AssemblyProduct("<#=CASSharePointProduct#>")]
+[assembly: AssemblyCopyright("<#=AssemblyCopyright#>")]
+[assembly: AssemblyTrademark("<#=CASSharePointTrademark#>")]
+[assembly: AssemblyCulture("")]
+[assembly: ComVisible(false)]
+[assembly: Guid("B1536F63-4D8D-4128-8F21-990A6EB4095D")]
+[assembly: AssemblyVersion("<#=CASSharePointSetupVersion#>.*")]
+[assembly: AssemblyFileVersion("<#=CASSharePointSetupVersion#>")]
+[assembly: CLSCompliant(true)]
+
+<#@ include file = "..\..\..\..\PR39-CommonResources\T4Definitions\AssemblyInfo.t4" #>

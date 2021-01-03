@@ -1,0 +1,49 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".nuspec" #>
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id><#=m_AssemblyTitle#></id>
+    <version><#= CASSharePointVersion #></version>
+    <title>
+      <#=m_AssemblyTitle#>
+    </title>
+    <authors><#=AssemblyCompany#></authors>
+    <owners><#=AssemblyCompany#></owners>
+    <projectUrl>svn://svnserver.hq.cas.com.pl/VS/trunk/PR44-SharePoint/Libraries/SharePoint</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>false</developmentDependency>
+    <description>
+      <#=m_AssemblyTitle#> is part of <#=CASSharePointProduct#>. 
+      This package contains common functions supporting deployment of SharePoint based application.
+      This library includes: DocumentsFactory, Linq, Logging, Serialization, Web.
+    </description>
+    <summary>
+      <#=CASSharePointProduct#> - SharePoint helper functions.
+    </summary>
+    <releaseNotes>
+      $LastChangedDate: $
+      $Rev: $
+      $LastChangedBy: $
+      $URL:  $
+      $Id:  $
+    </releaseNotes>
+    <copyright><#=AssemblyCopyright#></copyright>
+    <tags>SharePoint, SmartFactory, DocumentsFactory, Linq, Logging, Serialization, Web.</tags>
+    <dependencies>
+       <group targetFramework=".NETFramework3.5">
+          <dependency id="CAS.SharePoint.Common" version="<#=CASSharePointCommonVersion#>" />
+       </group>
+    </dependencies>
+  </metadata>
+  <files>
+     <file src="..\bin\Release\CAS.SharePoint.dll" target="lib\net35\CAS.SharePoint.dll" />
+     <file src="..\bin\Release\CAS.SharePoint.pdb" target="lib\net35\CAS.SharePoint.pdb" />
+     <file src="..\bin\Release\CAS.SharePoint.XML" target="lib\net35\CAS.SharePoint.XML" />
+  </files>
+</package>
+
+<#@ include file = "..\..\..\..\PR39-CommonResources\T4Definitions\AssemblyInfo.t4" #>
+<#+
+string m_AssemblyTitle = "CAS.SharePoint";
+#>

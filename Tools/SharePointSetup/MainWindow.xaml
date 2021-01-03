@@ -1,0 +1,66 @@
+﻿<Window x:Class="CAS.SharePoint.Setup.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CAS SharePoint Setup and Configuration Wizard" Height="350" Width="600" Icon="SharePoint_Setup_Icon.ico" MinWidth="600" MinHeight="350" ToolTip="Smart Factory management console"
+        Closing="Window_Closing">
+    <DockPanel LastChildFill="True"   >
+        <Menu DockPanel.Dock="Top"  >
+            <MenuItem Header="_Files" SubmenuOpened="MenuItemFiles_SubmenuOpened"   >
+                <MenuItem Name="MenuItemOpenSolution" Header="_Open Package..." Click="MenuItemOpenSolution_Click" ></MenuItem>
+                <MenuItem Name="x_MenuItemEdot" Header="_Edit Solution" Click="MenuItemEdit_Click"></MenuItem>
+                <MenuItem Name="MenuItemView" Header="_View Solution" Click="MenuItemView_Click"></MenuItem>
+                <MenuItem Name="MenuItemPublishPackage" Header="_Publish Package..." Click="MenuItemPublishPackage_Click"/>
+                <Separator />
+                <MenuItem Header="_Exit" Click="MenuItemExit_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <ToolBar DockPanel.Dock="Bottom" Header="State"  ToolTip="Information about the application and progress.">
+            <Label Name="ToolBarSolutionLabel" ContentStringFormat="Solutio: {0}" >unavailable</Label>
+            <ProgressBar Name="ProgressBarApplicationInstallationProgress" Width="300" Maximum="100" Minimum="0" />
+        </ToolBar>
+        <StackPanel Name="StackPanelButtons" DockPanel.Dock="Bottom" Orientation="Horizontal" >
+            <Button Name="ButtonGoBackward" Width="100" Margin="5,0,0,0" Content="&lt;&lt;" Click="ButtonGoBackward_Click"></Button>
+            <Button Name="ButtonGoForward" Width="100" Margin="5,0,0,0" Content="&gt;&gt;" Click="ButtonGoForward_Click"></Button>
+            <Button Name="ButtonUninstall" MinWidth="100" Width="100" Margin="5,0,0,0" Click="ButtonUninstall_Click">Uninstall</Button>
+            <Button Name="ButtonCancel" Width="100" Margin="5,0,0,0" Click="ButtonCancel_Click" >CANCEL</Button>
+        </StackPanel>
+        <TabControl Name="m_ContentTabControl" >
+            <TabItem Header="Setup" Name="SetupDataDialogPanel" >
+                <DockPanel Name="SetupDockPanel" LastChildFill="True">
+                    <Label Name="SetupLabelReview"  DockPanel.Dock="Top" >Review the installation data.</Label>
+                    <Frame Name="SetupFrame" MinHeight="10" DockPanel.Dock="Top" Foreground="#FF7EF37E" >
+                        <Frame.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                <GradientStop Color="#FFF7F7F7" Offset="1"/>
+                                <GradientStop Color="#FF52F752" Offset="0.021"/>
+                            </LinearGradientBrush>
+                        </Frame.Background>
+                    </Frame>
+                </DockPanel>
+            </TabItem>
+            <TabItem Header="Validation" Name="ValidationPanel" >
+                <DockPanel Name="x_DockPanelValidation" LastChildFill="True">
+                    <Label DockPanel.Dock="Top">Checking prerequisites.</Label>
+                    <ListBox Name="ValidationListBox" DockPanel.Dock="Top" ToolTip="Validation check list."  ></ListBox>
+                </DockPanel>
+            </TabItem>
+            <TabItem Header="Installation" Name="InstallationPanel" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" ></RowDefinition>
+                        <RowDefinition ></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0"  Grid.Column="0">Instalation in progress ..</Label>
+                    <ProgressBar Name="InstallationProgressBar"  Grid.Row="0" Grid.Column="1"></ProgressBar>
+                    <ListBox Name="InstallationListBox" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"></ListBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Finisched" Name="FinischedPanel" ></TabItem>
+            <TabItem Header="Uninstall" Name="UninstallPanel" ></TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

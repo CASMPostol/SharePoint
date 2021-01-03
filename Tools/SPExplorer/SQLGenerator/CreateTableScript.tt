@@ -1,0 +1,30 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+if exists (select * from INFORMATION_SCHEMA.TABLES where TABLE_NAME = '<#=TableName #>')
+  drop table  <#=TableName #>;
+CREATE TABLE [dbo].[<#=TableName #>] (
+<#
+	  foreach (ColumDescriptor _column in ColumnDefinitions)
+      {
+        string ColumnText = _column.ToString();
+      #>
+    <#= ColumnText #>,
+<#
+      };
+	  string _separator = ConstrainDefinitions.Count > 0 ? "," : String.Empty;
+      #>
+    [OnlySQL]				 BIT			 NOT NULL,	
+	CONSTRAINT [PK_<#=TableName #>_<#= PrivateKeyColumnName #>] PRIMARY KEY CLUSTERED ([<#= PrivateKeyColumnName #>] ASC) <#=_separator #>
+<#
+	  foreach (ConstrainDescriptor _column in ConstrainDefinitions)
+      {
+        string FGConstrainText = _column.ToString();
+#>
+    <#= FGConstrainText #>,
+<#
+      }
+      #>
+);

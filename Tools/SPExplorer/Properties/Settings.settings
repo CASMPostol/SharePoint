@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CAS.SharePoint.Tools.SPExplorer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LinqEntitiesClassName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Entities</Value>
+    </Setting>
+    <Setting Name="FileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Parameters.xml</Value>
+    </Setting>
+    <Setting Name="URL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://cas_sp:11225/sites/ipr</Value>
+    </Setting>
+    <Setting Name="DatabaseName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IPRARCHIV</Value>
+    </Setting>
+    <Setting Name="SQLScriptFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SQLScriptFileName</Value>
+    </Setting>
+    <Setting Name="TreeViewIconClassFriend" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">imgs\Class-Friend_491.png</Value>
+    </Setting>
+    <Setting Name="TreeViewIconList" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">imgs\list_16xLG.png</Value>
+    </Setting>
+    <Setting Name="TreeViewRoot" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">imgs\TreeView_713.png</Value>
+    </Setting>
+    <Setting Name="TreeViewTreeField" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">imgs\field_16xLG.png</Value>
+    </Setting>
+    <Setting Name="InludeHidden" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GroupName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CAS</Value>
+    </Setting>
+    <Setting Name="SelectedColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Author,Created,Editor,ID,Modified,owshiddenversion</Value>
+    </Setting>
+    <Setting Name="DropTableSQLScriptFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DropTableSQLScriptFileName</Value>
+    </Setting>
+    <Setting Name="SQlLDropScriptFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SQlLDropScriptFileName</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CAS.SharePoint</id>
+    <version>2.61.7</version>
+    <title>
+      CAS.SharePoint
+    </title>
+    <authors>CAS</authors>
+    <owners>CAS</owners>
+    <projectUrl>svn://svnserver.hq.cas.com.pl/VS/trunk/PR44-SharePoint/Libraries/SharePoint</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>false</developmentDependency>
+    <description>
+      CAS.SharePoint is part of CAS SharePoint Framework. 
+      This package contains common functions supporting deployment of SharePoint based application.
+      This library includes: DocumentsFactory, Linq, Logging, Serialization, Web.
+    </description>
+    <summary>
+      CAS SharePoint Framework - SharePoint helper functions.
+    </summary>
+    <releaseNotes>
+      $LastChangedDate: 2016-01-29 17:03:12 +0100 (pt., 29 sty 2016) $
+      $Rev: 11855 $
+      $LastChangedBy: mpostol $
+      $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePoint/Properties/CAS.SharePoint.nuspec $
+      $Id: CAS.SharePoint.nuspec 11855 2016-01-29 16:03:12Z mpostol $
+    </releaseNotes>
+    <copyright>Copyright (c) 2000-2016 CAS LODZ POLAND</copyright>
+    <tags>SharePoint, SmartFactory, DocumentsFactory, Linq, Logging, Serialization, Web.</tags>
+    <dependencies>
+       <group targetFramework=".NETFramework3.5">
+          <dependency id="CAS.SharePoint.Common" version="1.70.39" />
+       </group>
+    </dependencies>
+  </metadata>
+  <files>
+     <file src="..\bin\Release\CAS.SharePoint.dll" target="lib\net35\CAS.SharePoint.dll" />
+     <file src="..\bin\Release\CAS.SharePoint.pdb" target="lib\net35\CAS.SharePoint.pdb" />
+     <file src="..\bin\Release\CAS.SharePoint.XML" target="lib\net35\CAS.SharePoint.XML" />
+  </files>
+</package>
+

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAS.Common.ViewModel.Wizard.AbstractMachineState&lt;StateMachineContextType, ViewModelContextType&gt;">
+    <Position X="0.75" Y="1" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAASiAAAAAAAAIACAAAAAAEAAAAABABAgAAAAA=</HashCode>
+      <FileName>ViewModel\Wizard\AbstractMachineState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CAS.Common.ViewModel.Wizard.ViewModelBase&lt;StateType&gt;">
+    <Position X="6.25" Y="1.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Wizard\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CAS.Common.ComponentModel.PropertyChangedBase" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAQAABAAAAAAgAAgAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ComponentModel\PropertyChangedBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CAS.Common.ViewModel.Wizard.BackgroundWorkerMachine&lt;ContextType, ViewModelContextType&gt;" Collapsed="true">
+    <Position X="1" Y="5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>BAIAAQAAQiQAAAIAgAAAAAAABgAAAAAAAgAAAQAAAAA=</HashCode>
+      <FileName>ViewModel\Wizard\BackgroundWorkerVizardMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAS.Common.ViewModel.Wizard.StateMachineContext" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAIAAAAAACACIIAEQIBAAEIQAAAQAEBAABBAAACAAAA=</HashCode>
+      <FileName>ViewModel\Wizard\StateMachineContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

@@ -1,0 +1,33 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".nuspec" #>
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CAS.Common.Serialization</id>
+    <version><#= CommonSerializationFileVersion #></version>
+    <title>Common Serialization</title>
+    <authors><#=AssemblyCompany#></authors>
+    <owners><#=AssemblyCompany#></owners>
+    <projectUrl>svn://svnserver.hq.cas.com.pl/VS/trunk/PR44-SharePoint/Libraries/CASCommonSerialization</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <description>
+      Package provides extesins for serialization. It contains function to serialize and deserialize for JSON and XML. 
+      The document is saved in the file or returned as a string. 
+    </description>
+    <summary>
+      Package provides extesins for serialization. 
+    </summary>
+    <releaseNotes>
+      Deployed for CW.2.60
+    </releaseNotes>
+    <copyright><#=AssemblyCopyright#></copyright>
+    <tags>Serialization, XML, JSON, file, string.</tags>
+  </metadata>
+  <files>
+        <file src="..\bin\Release\CAS.CommonSerialization.dll" target="lib\portable-net45+sl5\CAS.CommonSerialization.dll" />
+        <file src="..\bin\Release\CAS.CommonSerialization.XML" target="lib\portable-net45+sl5\CAS.CommonSerialization.XML" />
+  </files>
+</package>
+
+<#@ include file = "..\..\..\..\PR39-CommonResources\T4Definitions\AssemblyInfo.t4" #>

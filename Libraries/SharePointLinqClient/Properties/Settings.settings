@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CAS.SharePoint.Client.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CAS_SharePointClientWebService_ServiceModel_Lists" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://casas:11227/sites/awt/_vti_bin/Lists.asmx</Value>
+    </Setting>
+    <Setting Name="EvenlLogSource" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CAS SharePoint Client Context</Value>
+    </Setting>
+    <Setting Name="ActivitiesLogsUserNamePattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{0} at {1}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

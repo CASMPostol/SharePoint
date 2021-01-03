@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{70DD8ABC-B012-427A-8163-64E63304BD42}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CAS.SharePoint.Client</RootNamespace>
+    <AssemblyName>CAS.SharePointClient</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CAS.SharePointClient.xml</DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>cas.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\CAS.SharePointClient.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssociationAttribute.cs" />
+    <Compile Include="AssociationChangedEventArgs.cs" />
+    <Compile Include="AssociationType.cs" />
+    <Compile Include="CAML\CamlQueryDefinition.cs" />
+    <Compile Include="ChangeConflictCollection.cs" />
+    <Compile Include="ChoiceAttribute.cs" />
+    <Compile Include="ColumnAttribute.cs" />
+    <Compile Include="ConflictMode.cs" />
+    <Compile Include="ContentTypeAttribute.cs" />
+    <Compile Include="DataAttribute.cs" />
+    <Compile Include="DataContext.cs" />
+    <Compile Include="DerivedEntityClassAttribute.cs" />
+    <Compile Include="EntityList.cs" />
+    <Compile Include="EntityListItemsCollection.cs" />
+    <Compile Include="EntityRef.cs" />
+    <Compile Include="EntitySet.cs" />
+    <Compile Include="EntityState.cs" />
+    <Compile Include="IEntityListItemsCollection.cs" />
+    <Compile Include="IEntityRef.cs" />
+    <Compile Include="IEntitySet.cs" />
+    <Compile Include="Link2SQL\ArchivingOperationLogs.cs" />
+    <Compile Include="Link2SQL\IArchivingOperationLogs.cs" />
+    <Compile Include="Link2SQL\IHistory.cs" />
+    <Compile Include="Link2SQL\Link2SQLExtensions.cs" />
+    <Compile Include="Link2SQL\IArchivingLogs.cs" />
+    <Compile Include="Linq2SP\IArchival.cs" />
+    <Compile Include="Linq2SP\IItem.cs" />
+    <Compile Include="Linq2SP\StorageItemsList.cs" />
+    <Compile Include="Reflection\Extensions.cs" />
+    <Compile Include="ITrackEntityState.cs" />
+    <Compile Include="ITrackOriginalValues.cs" />
+    <Compile Include="Link2SQL\IItem.cs" />
+    <Compile Include="Link2SQL\SQLStorageItem.cs" />
+    <Compile Include="Linq2SP\StorageItem.cs" />
+    <Compile Include="ListAttribute.cs" />
+    <Compile Include="MemberChangeConflict.cs" />
+    <Compile Include="ObjectChangeConflict.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssemblyInfo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RefreshMode.cs" />
+    <Compile Include="RemovedColumnAttribute.cs" />
+    <Compile Include="SP2SQLInteroperability\Extensions.cs" />
+    <Compile Include="SP2SQLInteroperability\Synchronizer.cs" />
+    <Compile Include="TEntityWrapper.cs" />
+    <Compile Include="WebReferences\ServiceModel\Reference.cs" />
+    <Compile Include="WebReferences\Version.cs" />
+    <Compile Include="WebReferences\WebServiceContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="cas.snk" />
+    <None Include="ClassDiagramAttributes.cd" />
+    <None Include="Properties\AssemblyInfo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\CAS.SharePoint.Client.nuspec">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CAS.SharePoint.Client.tt</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="WebReferences\ServiceModel\Lists.wsdl" />
+    <None Include="WebReferences\ServiceModel\Reference.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\CAS.SharePoint.Client.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>CAS.SharePoint.Client.nuspec</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

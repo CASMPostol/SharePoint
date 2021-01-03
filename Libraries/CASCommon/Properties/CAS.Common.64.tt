@@ -1,0 +1,30 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".nuspec" #>
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CAS.Common64</id>
+    <version><#= CommonClassLibraryVersionFileVersion #></version>
+    <title>CAS common library.</title>
+    <authors><#=AssemblyCompany#></authors>
+    <owners><#=AssemblyCompany#></owners>
+    <projectUrl>svn://svnserver.hq.cas.com.pl/VS/trunk/PR44-SharePoint/Libraries/CASCommon</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <description>
+      Package is extension for the xaml and contains functions supporting state machine for UI.
+    </description>
+    <summary>
+      Package is extension for the xaml and contains functions supporting state machine for UI.
+    </summary>
+    <releaseNotes>
+	  Deployed for SHR 2.60.10
+    </releaseNotes>
+    <copyright><#=AssemblyCopyright#></copyright>
+    <tags>WPF, Silverlight, SmartFactory.</tags>
+  </metadata>
+  <files>
+  </files>
+</package>
+
+<#@ include file = "..\..\..\..\PR39-CommonResources\T4Definitions\AssemblyInfo.t4" #>

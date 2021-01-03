@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CAS.Common.Serialization</id>
+    <version>1.00.00</version>
+    <title>Common Serialization</title>
+    <authors>CAS</authors>
+    <owners>CAS</owners>
+    <projectUrl>svn://svnserver.hq.cas.com.pl/VS/trunk/PR44-SharePoint/Libraries/CASCommonSerialization</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <description>
+      Package provides extesins for serialization. It contains function to serialize and deserialize for JSON and XML. 
+      The document is saved in the file or returned as a string. 
+    </description>
+    <summary>
+      Package provides extesins for serialization. 
+    </summary>
+    <releaseNotes>
+      Deployed for CW.2.60
+    </releaseNotes>
+    <copyright>Copyright (c) 2000-2016 CAS LODZ POLAND</copyright>
+    <tags>Serialization, XML, JSON, file, string.</tags>
+  </metadata>
+  <files>
+        <file src="..\bin\Release\CAS.CommonSerialization.dll" target="lib\portable-net45+sl5\CAS.CommonSerialization.dll" />
+        <file src="..\bin\Release\CAS.CommonSerialization.XML" target="lib\portable-net45+sl5\CAS.CommonSerialization.XML" />
+  </files>
+</package>
+

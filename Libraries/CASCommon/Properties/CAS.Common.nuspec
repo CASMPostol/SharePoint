@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CAS.Common</id>
+    <version>2.60.10</version>
+    <title>CAS common library.</title>
+    <authors>CAS</authors>
+    <owners>CAS</owners>
+    <projectUrl>svn://svnserver.hq.cas.com.pl/VS/trunk/PR44-SharePoint/Libraries/CASCommon</projectUrl>
+    <licenseUrl>http://www.cas.internetdsl.pl/commserver/P_DowloadCenter/Lic-09000401EN_License_Agreement.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <description>
+      Package is extension for the xaml and contains functions supporting state machine for UI.
+    </description>
+    <summary>
+      Package is extension for the xaml and contains functions supporting state machine for UI.
+    </summary>
+    <releaseNotes>
+	  Deployed for CW.2.20.30
+    </releaseNotes>
+    <copyright>Copyright (c) 2000-2016 CAS LODZ POLAND</copyright>
+    <tags>SmartFactory, WPF, Silverlight</tags>
+  </metadata>
+  <files>
+  </files>
+</package>
+

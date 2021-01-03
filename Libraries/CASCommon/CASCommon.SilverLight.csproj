@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC5BBDE9-71DC-414C-AD01-8CF6D4B00F91}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CAS.Common</RootNamespace>
+    <AssemblyName>CAS.Common.SilverLight</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <!-- This property group is only here to support building this project using the 
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+       to set the TargetFrameworkVersion to v3.5 -->
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\DebugSL\</OutputPath>
+    <BaseIntermediateOutputPath>obj\DebugSL\</BaseIntermediateOutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Bin\DebugSL\CAS.Common.SilverLight.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ReleaseSL\</OutputPath>
+    <BaseIntermediateOutputPath>obj\ReleaseSL\</BaseIntermediateOutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Bin\ReleaseSL\CAS.Common.SilverLight.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>cas.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core">
+      <HintPath>$(TargetFrameworkDirectory)System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Controls, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Browser" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationException.sl.cs" />
+    <Compile Include="ComponentModel\BoolNotConverter.cs" />
+    <Compile Include="ComponentModel\ComponentModelExtensions.cs" />
+    <Compile Include="ComponentModel\ICheckable.cs" />
+    <Compile Include="ComponentModel\PropertyChangedBase.cs" />
+    <Compile Include="ComponentModel\String2DoubleConverter.cs" />
+    <Compile Include="Interactivity\DefaultPopupWindows\DefaultConfirmationWindow.sl.xaml.cs">
+      <DependentUpon>DefaultConfirmationWindow.sl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interactivity\DefaultPopupWindows\DefaultNotificationWindow.sl.xaml.cs">
+      <DependentUpon>DefaultNotificationWindow.sl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interactivity\InteractionRequest\Confirmation.cs" />
+    <Compile Include="Interactivity\InteractionRequest\IConfirmation.cs" />
+    <Compile Include="Interactivity\InteractionRequest\IInteractionRequest.cs" />
+    <Compile Include="Interactivity\InteractionRequest\INotification.cs" />
+    <Compile Include="Interactivity\InteractionRequest\InteractionRequest.cs" />
+    <Compile Include="Interactivity\InteractionRequest\InteractionRequestedEventArgs.cs" />
+    <Compile Include="Interactivity\InteractionRequest\Notification.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssemblyInfo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="ViewModel\AsynchronousCommandBase.cs" />
+    <Compile Include="ViewModel\ICommandWithUpdate.cs" />
+    <Compile Include="ViewModel\SynchronousCommandBase.cs" />
+    <Compile Include="ViewModel\ViewModelBackgroundWorker.cs" />
+    <Compile Include="ViewModel\Wizard\AbstractMachineState.cs" />
+    <Compile Include="ViewModel\Wizard\BackgroundWorkerVizardMachine.cs" />
+    <Compile Include="ViewModel\Wizard\ButtonsPanelBase.cs" />
+    <Compile Include="ViewModel\Wizard\ButtonsPanelState.cs" />
+    <Compile Include="ViewModel\Wizard\ButtonsPanelStateTemplates\BaseTemplate.cs" />
+    <Compile Include="ViewModel\Wizard\ButtonsPanelStateTemplates\CancelTemplate.cs" />
+    <Compile Include="ViewModel\Wizard\ButtonsPanelStateTemplates\ConnectCancelTemplate.cs" />
+    <Compile Include="ViewModel\Wizard\IAbstractMachineState.cs" />
+    <Compile Include="ViewModel\Wizard\IButtonsPanelBase.cs" />
+    <Compile Include="ViewModel\Wizard\IViewModelContext.cs" />
+    <Compile Include="ViewModel\Wizard\StateMachineContext.cs" />
+    <Compile Include="ViewModel\Wizard\StateMachineEvents.cs" />
+    <Compile Include="ViewModel\Wizard\ViewModelBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cas.snk" />
+    <None Include="Properties\AssemblyInfo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
+    </None>
+    <None Include="ViewModel\Wizard\WizardDiagrams.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Interactivity\DefaultPopupWindows\DefaultConfirmationWindow.sl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interactivity\DefaultPopupWindows\DefaultNotificationWindow.sl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

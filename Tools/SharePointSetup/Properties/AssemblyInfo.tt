@@ -1,0 +1,20 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".cs" #>
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+[assembly: AssemblyTitle("CAS SharePoint Setup and Deployment")]
+[assembly: AssemblyDescription("SharePoint Setup, Deployment and Retrack Management")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("<#=AssemblyCompany#>")]
+[assembly: AssemblyProduct("<#=CASSharePointProduct#>")]
+[assembly: AssemblyCopyright("<#=AssemblyCopyright#>")]
+[assembly: AssemblyTrademark("<#=CASSharePointTrademark#>")]
+[assembly: AssemblyCulture("")]
+[assembly: ComVisible(false)]
+[assembly: Guid("A76878A1-94F7-4B65-8155-78F00178B7BB")]
+[assembly: AssemblyVersion("<#=CASSharePointSetupVersion#>.*")]
+[assembly: AssemblyFileVersion("<#=CASSharePointSetupVersion#>")]
+
+<#@ include file = "..\..\..\..\PR39-CommonResources\T4Definitions\AssemblyInfo.t4" #>
