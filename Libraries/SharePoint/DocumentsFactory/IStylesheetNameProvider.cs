@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-02-11 14:18:03 +0100 (wt., 11 lut 2014) $
 //  $Rev: 10314 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePoint/DocumentsFactory/IStylesheetNameProvider.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePoint/DocumentsFactory/IStylesheetNameProvider.cs $
 //  $Id: IStylesheetNameProvider.cs 10314 2014-02-11 13:18:03Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

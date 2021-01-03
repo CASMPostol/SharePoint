@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-08-11 14:37:23 +0200 (pon., 11 sie 2014) $
 //  $Rev: 10691 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Tools/SPExplorer/ModelView/SaveXMLDocumentCommand.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Tools/SPExplorer/ModelView/SaveXMLDocumentCommand.cs $
 //  $Id: SaveXMLDocumentCommand.cs 10691 2014-08-11 12:37:23Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-12-23 14:57:39 +0100 (wt., 23 gru 2014) $
 //  $Rev: 11139 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/CASCommon/ViewModel/Wizard/BackgroundWorkerVizardMachine.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/CASCommon/ViewModel/Wizard/BackgroundWorkerVizardMachine.cs $
 //  $Id: BackgroundWorkerVizardMachine.cs 11139 2014-12-23 13:57:39Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

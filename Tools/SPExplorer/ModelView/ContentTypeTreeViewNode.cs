@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-10-10 16:13:54 +0200 (pt., 10 paź 2014) $
 //  $Rev: 10838 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Tools/SPExplorer/ModelView/ContentTypeTreeViewNode.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Tools/SPExplorer/ModelView/ContentTypeTreeViewNode.cs $
 //  $Id: ContentTypeTreeViewNode.cs 10838 2014-10-10 14:13:54Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

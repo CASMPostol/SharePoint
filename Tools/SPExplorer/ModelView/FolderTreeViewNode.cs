@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-06-30 14:06:30 +0200 (pon., 30 cze 2014) $
 //  $Rev: 10531 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Tools/SPExplorer/ModelView/FolderTreeViewNode.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Tools/SPExplorer/ModelView/FolderTreeViewNode.cs $
 //  $Id: FolderTreeViewNode.cs 10531 2014-06-30 12:06:30Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

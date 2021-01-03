@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-09-01 15:16:13 +0200 (pon., 01 wrz 2014) $
 //  $Rev: 10757 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePointLinqClient/WebReferences/Version.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePointLinqClient/WebReferences/Version.cs $
 //  $Id: Version.cs 10757 2014-09-01 13:16:13Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

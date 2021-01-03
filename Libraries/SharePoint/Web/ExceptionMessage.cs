@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2015-02-27 14:05:11 +0100 (pt., 27 lut 2015) $
 //  $Rev: 11424 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePoint/Web/ExceptionMessage.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePoint/Web/ExceptionMessage.cs $
 //  $Id: ExceptionMessage.cs 11424 2015-02-27 13:05:11Z mpostol $
 //
 //  Copyright (C) 2013, CAS LODZ POLAND.

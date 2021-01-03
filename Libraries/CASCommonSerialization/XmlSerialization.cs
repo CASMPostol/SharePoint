@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2015-03-11 16:00:22 +0100 (śr., 11 mar 2015) $
 //  $Rev: 11476 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/CASCommonSerialization/XmlSerialization.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/CASCommonSerialization/XmlSerialization.cs $
 //  $Id: XmlSerialization.cs 11476 2015-03-11 15:00:22Z mpostol $
 //
 //  Copyright (C) 2015, CAS LODZ POLAND.

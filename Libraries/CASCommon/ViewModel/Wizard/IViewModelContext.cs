@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-12-10 16:16:26 +0100 (śr., 10 gru 2014) $
 //  $Rev: 11083 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/CASCommon/ViewModel/Wizard/IViewModelContext.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/CASCommon/ViewModel/Wizard/IViewModelContext.cs $
 //  $Id: IViewModelContext.cs 11083 2014-12-10 15:16:26Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

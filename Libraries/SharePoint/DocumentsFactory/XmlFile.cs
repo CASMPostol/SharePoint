@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2015-02-19 16:43:02 +0100 (czw., 19 lut 2015) $
 //  $Rev: 11388 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePoint/DocumentsFactory/XmlFile.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePoint/DocumentsFactory/XmlFile.cs $
 //  $Id: XmlFile.cs 11388 2015-02-19 15:43:02Z mpostol $
 //
 //  Copyright (C) 2013, CAS LODZ POLAND.

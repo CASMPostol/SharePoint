@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-07-03 10:44:46 +0200 (czw., 03 lip 2014) $
 //  $Rev: 10544 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Tools/SPExplorer/MainWindow.xaml.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Tools/SPExplorer/MainWindow.xaml.cs $
 //  $Id: MainWindow.xaml.cs 10544 2014-07-03 08:44:46Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

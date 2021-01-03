@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2015-01-26 12:03:16 +0100 (pon., 26 sty 2015) $
 //  $Rev: 11263 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePointLinqClient/Linq2SP/StorageItem.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePointLinqClient/Linq2SP/StorageItem.cs $
 //  $Id: StorageItem.cs 11263 2015-01-26 11:03:16Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-12-22 14:26:23 +0100 (pon., 22 gru 2014) $
 //  $Rev: 11137 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/CASCommon/ViewModel/Wizard/ButtonsPanelState.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/CASCommon/ViewModel/Wizard/ButtonsPanelState.cs $
 //  $Id: ButtonsPanelState.cs 11137 2014-12-22 13:26:23Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

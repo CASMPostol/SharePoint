@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2015-01-23 17:02:00 +0100 (pt., 23 sty 2015) $
 //  $Rev: 11255 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePointLinqClient/DataAttribute.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePointLinqClient/DataAttribute.cs $
 //  $Id: DataAttribute.cs 11255 2015-01-23 16:02:00Z mpostol $
 //
 //  Copyright (C) 2015, CAS LODZ POLAND.

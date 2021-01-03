@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2015-02-20 15:40:38 +0100 (pt., 20 lut 2015) $
 //  $Rev: 11394 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePoint/Serialization/JsonSerializer.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePoint/Serialization/JsonSerializer.cs $
 //  $Id: JsonSerializer.cs 11394 2015-02-20 14:40:38Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

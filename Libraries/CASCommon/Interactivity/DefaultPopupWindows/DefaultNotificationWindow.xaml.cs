@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-10-17 17:07:46 +0200 (pt., 17 paź 2014) $
 //  $Rev: 10871 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/CASCommon/Interactivity/DefaultPopupWindows/DefaultNotificationWindow.xaml.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/CASCommon/Interactivity/DefaultPopupWindows/DefaultNotificationWindow.xaml.cs $
 //  $Id: DefaultNotificationWindow.xaml.cs 10871 2014-10-17 15:07:46Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2015-01-23 11:55:00 +0100 (pt., 23 sty 2015) $
 //  $Rev: 11254 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePointLinqClient/EntityListItemsCollection.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePointLinqClient/EntityListItemsCollection.cs $
 //  $Id: EntityListItemsCollection.cs 11254 2015-01-23 10:55:00Z mpostol $
 //
 //  Copyright (C) 2013, CAS LODZ POLAND.

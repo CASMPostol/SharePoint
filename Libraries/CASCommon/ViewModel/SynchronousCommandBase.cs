@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-10-13 15:52:44 +0200 (pon., 13 paź 2014) $
 //  $Rev: 10857 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/CASCommon/ViewModel/SynchronousCommandBase.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/CASCommon/ViewModel/SynchronousCommandBase.cs $
 //  $Id: SynchronousCommandBase.cs 10857 2014-10-13 13:52:44Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

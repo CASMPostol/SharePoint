@@ -23,7 +23,7 @@
       $LastChangedDate: 2016-01-29 17:03:12 +0100 (pt., 29 sty 2016) $
       $Rev: 11855 $
       $LastChangedBy: mpostol $
-      $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePoint/Properties/CAS.SharePoint.nuspec $
+      $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePoint/Properties/CAS.SharePoint.nuspec $
       $Id: CAS.SharePoint.nuspec 11855 2016-01-29 16:03:12Z mpostol $
     </releaseNotes>
     <copyright>Copyright (c) 2000-2016 CAS LODZ POLAND</copyright>

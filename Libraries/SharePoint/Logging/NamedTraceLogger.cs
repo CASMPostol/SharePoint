@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2015-04-15 17:55:29 +0200 (śr., 15 kwi 2015) $
 //  $Rev: 11589 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePoint/Logging/NamedTraceLogger.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePoint/Logging/NamedTraceLogger.cs $
 //  $Id: NamedTraceLogger.cs 11589 2015-04-15 15:55:29Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

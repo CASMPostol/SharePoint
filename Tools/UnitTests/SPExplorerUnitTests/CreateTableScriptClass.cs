@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-11-27 16:16:44 +0100 (czw., 27 lis 2014) $
 //  $Rev: 10999 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Tools/UnitTests/SPExplorerUnitTests/CreateTableScriptClass.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Tools/UnitTests/SPExplorerUnitTests/CreateTableScriptClass.cs $
 //  $Id: CreateTableScriptClass.cs 10999 2014-11-27 15:16:44Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

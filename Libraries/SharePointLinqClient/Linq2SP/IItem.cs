@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-08-29 14:23:35 +0200 (pt., 29 sie 2014) $
 //  $Rev: 10752 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePointLinqClient/Linq2SP/IItem.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePointLinqClient/Linq2SP/IItem.cs $
 //  $Id: IItem.cs 10752 2014-08-29 12:23:35Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

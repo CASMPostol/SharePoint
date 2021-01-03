@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2015-03-11 12:41:19 +0100 (śr., 11 mar 2015) $
 //  $Rev: 11474 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/CASCommonSerialization/Extensions.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/CASCommonSerialization/Extensions.cs $
 //  $Id: Extensions.cs 11474 2015-03-11 11:41:19Z mpostol $
 //
 //  Copyright (C) 2015, CAS LODZ POLAND.

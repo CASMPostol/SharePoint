@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-10-27 10:47:33 +0100 (pon., 27 paź 2014) $
 //  $Rev: 10915 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/CASCommon/ComponentModel/String2DoubleConverter.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/CASCommon/ComponentModel/String2DoubleConverter.cs $
 //  $Id: String2DoubleConverter.cs 10915 2014-10-27 09:47:33Z mpostol $
 //
 //  Copyright (C) 2013, CAS LODZ POLAND.

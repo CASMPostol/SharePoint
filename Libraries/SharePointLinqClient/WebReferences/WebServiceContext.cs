@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-11-28 11:47:47 +0100 (pt., 28 lis 2014) $
 //  $Rev: 11006 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePointLinqClient/WebReferences/WebServiceContext.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePointLinqClient/WebReferences/WebServiceContext.cs $
 //  $Id: WebServiceContext.cs 11006 2014-11-28 10:47:47Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

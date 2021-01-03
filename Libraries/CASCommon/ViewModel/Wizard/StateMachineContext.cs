@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2015-01-07 14:45:01 +0100 (śr., 07 sty 2015) $
 //  $Rev: 11179 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/CASCommon/ViewModel/Wizard/StateMachineContext.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/CASCommon/ViewModel/Wizard/StateMachineContext.cs $
 //  $Id: StateMachineContext.cs 11179 2015-01-07 13:45:01Z mpostol $
 //
 //  Copyright (C) 2013, CAS LODZ POLAND.

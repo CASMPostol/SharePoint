@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2015-01-21 11:05:59 +0100 (śr., 21 sty 2015) $
 //  $Rev: 11242 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePointLinqClient/Link2SQL/IArchivingOperationLogs.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePointLinqClient/Link2SQL/IArchivingOperationLogs.cs $
 //  $Id: IArchivingOperationLogs.cs 11242 2015-01-21 10:05:59Z mpostol $
 //
 //  Copyright (C) 2015, CAS LODZ POLAND.

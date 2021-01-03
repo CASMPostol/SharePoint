@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2015-09-10 12:58:18 +0200 (czw., 10 wrz 2015) $
 //  $Rev: 11671 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Tools/SharePointSetup/Diagnostics/AdvancedTraceListenerHelper.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Tools/SharePointSetup/Diagnostics/AdvancedTraceListenerHelper.cs $
 //  $Id: AdvancedTraceListenerHelper.cs 11671 2015-09-10 10:58:18Z mpostol $
 //
 //  Copyright (C)2009, CAS LODZ POLAND.

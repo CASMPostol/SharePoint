@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2015-02-25 16:12:08 +0100 (śr., 25 lut 2015) $
 //  $Rev: 11412 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePoint/Linq/DataContextManagement.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePoint/Linq/DataContextManagement.cs $
 //  $Id: DataContextManagement.cs 11412 2015-02-25 15:12:08Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

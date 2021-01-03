@@ -4,7 +4,7 @@
 //  $LastChangedDate: 2014-02-07 11:54:17 +0100 (pt., 07 lut 2014) $
 //  $Rev: 10293 $
 //  $LastChangedBy: mpostol $
-//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Libraries/SharePoint/ApplicationError.cs $
+//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Libraries/SharePoint/ApplicationError.cs $
 //  $Id: ApplicationError.cs 10293 2014-02-07 10:54:17Z mpostol $
 //
 //  Copyright (C) 2014, CAS LODZ POLAND.

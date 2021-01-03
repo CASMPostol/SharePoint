@@ -2,7 +2,7 @@
 rem//  $LastChangedDate: 2016-01-29 17:03:12 +0100 (pt., 29 sty 2016) $
 rem//  $Rev: 11855 $
 rem//  $LastChangedBy: mpostol $
-rem//  $URL: http://svn.server300161.nazwa.pl/cas/VS/tags/CAS.SharePoint.rel_2_61_7/PR44-SharePoint/Scripts/CreateTag.cmd $
+rem//  $URL: http://svn.server300161.nazwa.pl/cas/VS/trunk/PR44-SharePoint/Scripts/CreateTag.cmd $
 rem//  $Id: CreateTag.cmd 11855 2016-01-29 16:03:12Z mpostol $
 
 
